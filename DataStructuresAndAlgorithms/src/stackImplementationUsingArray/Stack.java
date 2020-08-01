@@ -2,15 +2,15 @@ package stackImplementationUsingArray;
 
 public class Stack {
 
-	static final int SIZE = 5;
+	static final int CAPACITY = 5;
 
-	int stack[] = new int[SIZE];
+	int stack[] = new int[CAPACITY];
 
 	int top = 0;
 
 	public void push(int data) {
 
-		if (top == SIZE) {
+		if (top == CAPACITY) {
 
 			System.out.print("Stack Overflow");
 
