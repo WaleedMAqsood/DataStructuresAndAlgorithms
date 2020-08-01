@@ -2,26 +2,35 @@ package stackImplementationUsingArray;
 
 public class Stack {
 
-	static final int CAPACITY = 5;
+	int capacity = 4;
 
-	int stack[] = new int[CAPACITY];
+	int stack[] = new int[capacity];
 
 	int top = 0;
 
 	public void push(int data) {
 
-		if (top == CAPACITY) {
+		if (size() == capacity) {
 
-			System.out.print("Stack Overflow");
-
+			expand();
 		}
 
-		else {
+		stack[top++] = data;
+		System.out.println(data + " Pushed into Stack ");
 
-			stack[top++] = data;
-			System.out.println(data + " Pushed into Stack ");
+	}
 
-		}
+	private void expand() {
+
+		int length = size();
+		int newStack[] = new int[capacity * 2];
+
+		System.arraycopy(stack, 0, newStack, 0, length);
+
+		stack = newStack;
+
+		capacity = capacity * 2;
+
 	}
 
 	public int pop() {
@@ -74,9 +83,11 @@ public class Stack {
 
 	public void show() {
 		for (int n : stack) {
-			System.out.println(n);
+			System.out.print(n + " ");
 
 		}
+
+		System.out.println();
 
 	}
 
