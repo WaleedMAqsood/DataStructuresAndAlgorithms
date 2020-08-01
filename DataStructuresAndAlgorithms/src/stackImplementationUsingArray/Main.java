@@ -1,4 +1,4 @@
-package StacksImplementationUsingArray;
+package stackImplementationUsingArray;
 
 public class Main {
 
