@@ -18,7 +18,7 @@ public class Main {
 		System.out.println();
 		System.out.println(st.pop() + " Popped from stack");
 		System.out.println();
-		System.out.println("The Top is " + st.peek());
+		System.out.println("Top element is" + st.peek());
 		System.out.println();
 		System.out.println("Printing the Stack");
 		// Print Stack
