@@ -1,5 +1,5 @@
 /*
- * Insert, InsertAtStart, InsertAt (Index) ,deleteAt (Index) and display a Linked List
+ * Insert, InsertAtStart, InsertAt (Index) ,deleteAt (Index) and display Linked List
  */
 
 package linkedListImplementation;
