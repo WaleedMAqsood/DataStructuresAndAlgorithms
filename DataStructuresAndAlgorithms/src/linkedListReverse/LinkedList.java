@@ -54,6 +54,9 @@ public class LinkedList {
 
 	}
 
+	/*
+	 * Method to display all nodes
+	 */
 	public void show()
 
 	{
