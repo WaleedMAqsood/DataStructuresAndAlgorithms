@@ -2,7 +2,7 @@
  * Insert, InsertAtStart, InsertAt and delete from Linked List
  */
 
-package LinkedList;
+package linkedList;
 
 public class LinkedList {
 
