@@ -1,5 +1,5 @@
 /*
- *  Push, Pop, Peek from Stack
+ *  Push, Pop, Peek, resize and display Stack
  */
 package stackImplementationUsingArray;
 
