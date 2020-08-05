@@ -1,5 +1,5 @@
 /*
- *  Push, Pop, Peek from Stack
+ *  Push, Pop, Peek  and display Stack
  */
 package stackImplementationUsingLinkedList;
 
