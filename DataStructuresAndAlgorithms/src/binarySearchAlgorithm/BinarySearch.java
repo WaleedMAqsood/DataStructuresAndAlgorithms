@@ -3,7 +3,7 @@
  */
 package binarySearchAlgorithm;
 
-public class searchUsingBinraySearch {
+public class BinarySearch {
 
 	public static int binarysearch(int[] array, int key, int first, int last) {
 
