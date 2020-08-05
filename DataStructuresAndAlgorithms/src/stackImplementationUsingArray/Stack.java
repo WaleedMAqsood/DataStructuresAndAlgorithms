@@ -11,8 +11,12 @@ public class Stack {
 
 	int top = 0;
 
+	/*
+	 * Adds an element to the top of the stack
+	 */
 	public void push(int data) {
 
+		// If array is full increase capacity
 		if (size() == capacity) {
 
 			expand();
@@ -27,14 +31,10 @@ public class Stack {
 
 		int length = size();
 
-		// A new array newArray is created which has double the size of the original
-		// array arr.
 		int newArray[] = new int[capacity * 2];
 
-		// Copy the contents of the original array arr to the new array newArray
 		System.arraycopy(arr, 0, newArray, 0, length);
 
-		// arr reference is now pointing to the same location as newArray points too
 		arr = newArray;
 
 		capacity = capacity * 2;
@@ -46,6 +46,10 @@ public class Stack {
 		 */
 
 	}
+
+	/*
+	 * Removes the top value of the stack and returns the value which was removed
+	 */
 
 	public int pop() {
 
@@ -68,6 +72,9 @@ public class Stack {
 
 	}
 
+	/*
+	 * Returns the element at the top of the stack
+	 */
 	public int peek() {
 
 		int data = 0;
@@ -85,6 +92,9 @@ public class Stack {
 
 	}
 
+	/*
+	 * Returns True if stack is empty
+	 */
 	public boolean isEmpty() {
 
 		return top == 0;
@@ -95,6 +105,9 @@ public class Stack {
 		return top;
 	}
 
+	/*
+	 * Displays the stack
+	 */
 	public void show() {
 		for (int n : arr) {
 			System.out.print(n + " ");
