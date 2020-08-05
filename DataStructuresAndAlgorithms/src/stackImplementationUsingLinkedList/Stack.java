@@ -5,13 +5,6 @@ package stackImplementationUsingLinkedList;
 
 import java.util.EmptyStackException;
 
-class Node {
-
-	int data;
-	Node next;
-
-}
-
 public class Stack {
 
 	Node top;
