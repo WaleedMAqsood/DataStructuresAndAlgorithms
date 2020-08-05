@@ -7,6 +7,9 @@ public class LinkedList {
 
 	Node head;
 
+	/*
+	 * Method to insert a new node
+	 */
 	public void insert(int data) {
 
 		Node node = new Node();
@@ -29,6 +32,9 @@ public class LinkedList {
 		}
 	}
 
+	/*
+	 * Method to find the middle element of the Linked List
+	 */
 	public void linkedListMiddle() {
 
 		Node slowPointer = head;
@@ -45,6 +51,9 @@ public class LinkedList {
 
 	}
 
+	/*
+	 * Method to display all nodes
+	 */
 	public void show() {
 		Node current = head;
 

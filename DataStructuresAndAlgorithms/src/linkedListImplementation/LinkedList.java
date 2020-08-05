@@ -8,6 +8,9 @@ public class LinkedList {
 
 	Node head;
 
+	/*
+	 * Method to insert a new node
+	 */
 	public void insert(int data) {
 
 		Node node = new Node();
@@ -33,6 +36,9 @@ public class LinkedList {
 
 	}
 
+	/*
+	 * Method to insert a new node at the start
+	 */
 	public void insertAtStart(int data) {
 
 		Node node = new Node();
@@ -42,6 +48,9 @@ public class LinkedList {
 
 	}
 
+	/*
+	 * Method to insert a new node at a given position
+	 */
 	public void insertAt(int index, int data) {
 
 		if (index == 0) {
@@ -65,6 +74,9 @@ public class LinkedList {
 		}
 	}
 
+	/*
+	 * Method to delete a node at a given position
+	 */
 	public void deleteAt(int index) {
 
 		if (index == 0) {
@@ -82,6 +94,10 @@ public class LinkedList {
 
 		}
 	}
+
+	/*
+	 * Method to display all nodes
+	 */
 
 	public void show()
 

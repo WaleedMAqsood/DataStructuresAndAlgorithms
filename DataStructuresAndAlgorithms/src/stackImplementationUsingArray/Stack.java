@@ -12,7 +12,7 @@ public class Stack {
 	int top = 0;
 
 	/*
-	 * Adds an element to the top of the stack
+	 * Method to add an element to the stack
 	 */
 	public void push(int data) {
 
@@ -48,7 +48,8 @@ public class Stack {
 	}
 
 	/*
-	 * Removes the top value of the stack and returns the value which was removed
+	 * Method to remove the top value of the stack and return the value which was
+	 * removed
 	 */
 
 	public int pop() {
@@ -73,7 +74,7 @@ public class Stack {
 	}
 
 	/*
-	 * Returns the element at the top of the stack
+	 * Method to return the element at the top of the stack
 	 */
 	public int peek() {
 
@@ -106,7 +107,7 @@ public class Stack {
 	}
 
 	/*
-	 * Displays the stack
+	 * Method to Display elements in stack
 	 */
 	public void show() {
 		for (int n : arr) {

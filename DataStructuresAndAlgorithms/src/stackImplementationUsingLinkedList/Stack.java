@@ -9,6 +9,9 @@ public class Stack {
 
 	Node top;
 
+	/*
+	 * Method to Add an element to the stack
+	 */
 	public void push(int data) {
 
 		Node node = new Node();
@@ -18,6 +21,10 @@ public class Stack {
 
 	}
 
+	/*
+	 * Method to remove the top value of the stack and return the value which was
+	 * removed
+	 */
 	public int pop() {
 
 		if (isEmpty()) {
@@ -33,6 +40,9 @@ public class Stack {
 		}
 	}
 
+	/*
+	 * Method to return the element at the top of the stack
+	 */
 	public int peek() {
 
 		if (isEmpty()) {
@@ -43,11 +53,17 @@ public class Stack {
 		}
 	}
 
+	/*
+	 * Returns True if stack is empty
+	 */
 	public boolean isEmpty() {
 
 		return top == null;
 	}
 
+	/*
+	 * Method to display all the elements in stack
+	 */
 	public void display() {
 
 		Node temp = top;

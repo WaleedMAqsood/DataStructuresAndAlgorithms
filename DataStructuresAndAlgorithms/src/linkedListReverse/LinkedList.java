@@ -7,6 +7,9 @@ public class LinkedList {
 
 	Node head;
 
+	/*
+	 * Method to insert a new node
+	 */
 	public void insert(int data) {
 
 		Node node = new Node();
@@ -30,6 +33,9 @@ public class LinkedList {
 		}
 	}
 
+	/*
+	 * Method to reverse a Linked List
+	 */
 	public void reverseList() {
 
 		Node current = head;

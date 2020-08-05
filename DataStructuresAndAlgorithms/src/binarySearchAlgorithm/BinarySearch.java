@@ -10,7 +10,7 @@ public class BinarySearch {
 		while (first <= last) {
 
 			/*
-			 * (First+Start)/2 can be used to calculate the middle of an array, but it an
+			 * (First+Start)/2 can be used to calculate the middle of an array, but it can
 			 * cause Integer overflow so the following way is preferred
 			 */
 			int mid = first + (last - first) / 2;
