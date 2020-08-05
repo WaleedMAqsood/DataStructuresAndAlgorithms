@@ -10,7 +10,7 @@ class Node {
 
 }
 
-public class LikedList {
+public class MiddleLikedList {
 
 	Node head;
 
@@ -64,7 +64,7 @@ public class LikedList {
 	}
 
 	public static void main(String[] args) {
-		LikedList list = new LikedList();
+		MiddleLikedList list = new MiddleLikedList();
 
 		// Inserting a new node at the end
 		list.insert(1);
