@@ -1,3 +1,6 @@
+/*
+ * Binary Search Algorithm
+ */
 package binarySearchAlgorithm;
 
 public class searchUsingBinraySearch {

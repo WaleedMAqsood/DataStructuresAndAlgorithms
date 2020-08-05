@@ -1,3 +1,6 @@
+/*
+ * Linear Search Algorithm
+ */
 package linearSearchAlgorithm;
 
 public class Linearsearch {
