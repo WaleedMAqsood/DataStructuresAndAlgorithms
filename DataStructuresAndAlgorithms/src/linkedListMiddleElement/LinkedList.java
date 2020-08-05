@@ -3,14 +3,7 @@
  */
 package linkedListMiddleElement;
 
-class Node {
-
-	Node next;
-	int data;
-
-}
-
-public class MiddleLikedList {
+public class LinkedList {
 
 	Node head;
 
@@ -61,24 +54,6 @@ public class MiddleLikedList {
 			current = current.next;
 
 		}
-	}
-
-	public static void main(String[] args) {
-		MiddleLikedList list = new MiddleLikedList();
-
-		// Inserting a new node at the end
-		list.insert(1);
-		list.insert(2);
-		list.insert(3);
-		list.insert(4);
-		list.insert(5);
-
-		// Displaying LinkedList
-		list.show();
-
-		// Method to Print the middle element
-		list.linkedListMiddle();
-
 	}
 
 }
