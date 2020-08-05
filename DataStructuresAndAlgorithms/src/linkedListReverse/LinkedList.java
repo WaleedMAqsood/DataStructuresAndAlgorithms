@@ -1,5 +1,5 @@
 /*
- * Insert and Reverse a Linked List
+ * Reverse a Linked List
  */
 package linkedListReverse;
 

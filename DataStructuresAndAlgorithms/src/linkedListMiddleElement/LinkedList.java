@@ -1,5 +1,5 @@
 /*
- * Insert and Find the Middle Element in LinkedList
+ * Find the Middle Element in LinkedList
  */
 package linkedListMiddleElement;
 
