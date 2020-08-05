@@ -107,7 +107,7 @@ public class Stack {
 	}
 
 	/*
-	 * Method to Display elements in stack
+	 * Method to Display all elements in stack
 	 */
 	public void show() {
 		for (int n : arr) {
