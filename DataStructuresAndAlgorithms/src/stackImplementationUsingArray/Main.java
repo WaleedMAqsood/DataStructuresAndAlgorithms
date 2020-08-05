@@ -10,6 +10,7 @@ public class Main {
 		st.push(53);
 		st.push(12);
 		st.push(30);
+		st.push(35);
 
 		// Method to print Size of the stack
 		System.out.println();

@@ -11,7 +11,7 @@ public class BinarySearch {
 
 			/*
 			 * (First+Start)/2 can be used to calculate the middle of an array, but it an
-			 * cause Integer overflow so the following method is preferred
+			 * cause Integer overflow so the following way is preferred
 			 */
 			int mid = first + (last - first) / 2;
 
