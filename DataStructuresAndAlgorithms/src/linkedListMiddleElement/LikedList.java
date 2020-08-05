@@ -1,6 +1,16 @@
+/*
+ * Find the Middle Element in Linked List
+ */
 package linkedListMiddleElement;
 
-public class LinkedList {
+class Node {
+
+	Node next;
+	int data;
+
+}
+
+public class LikedList {
 
 	Node head;
 
@@ -42,9 +52,7 @@ public class LinkedList {
 
 	}
 
-	public void show()
-
-	{
+	public void show() {
 		Node current = head;
 
 		while (current != null) {
@@ -53,10 +61,23 @@ public class LinkedList {
 			current = current.next;
 
 		}
+	}
 
-		{
+	public static void main(String[] args) {
+		LikedList list = new LikedList();
 
-		}
+		// Inserting a new node at the end
+		list.insert(1);
+		list.insert(2);
+		list.insert(3);
+		list.insert(4);
+		list.insert(5);
+
+		// Displaying LinkedList
+		list.show();
+
+		// Method to Print the middle element
+		list.linkedListMiddle();
 
 	}
 
