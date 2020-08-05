@@ -8,6 +8,11 @@ public class BinarySearch {
 	public static int binarysearch(int[] array, int key, int first, int last) {
 
 		while (first <= last) {
+
+			/*
+			 * (First+Start)/2 can be used to calculate the middle of an array, but it an
+			 * cause Integer overflow so the following method is preferred
+			 */
 			int mid = first + (last - first) / 2;
 
 			if (array[mid] == key) {

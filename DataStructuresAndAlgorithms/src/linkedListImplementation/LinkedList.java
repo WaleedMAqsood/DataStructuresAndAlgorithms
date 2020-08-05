@@ -1,8 +1,8 @@
 /*
- * Insert, InsertAtStart, InsertAt and delete from Linked List
+ * Insert, InsertAtStart, InsertAt (Index) ,deleteAt (Index) and display a Linked List
  */
 
-package linkedList;
+package linkedListImplementation;
 
 public class LinkedList {
 
