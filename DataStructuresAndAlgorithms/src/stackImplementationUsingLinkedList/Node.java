@@ -7,6 +7,7 @@ class Node {
 
 	Node(int value) {
 		data = value;
+		next = null;
 
 	}
 
