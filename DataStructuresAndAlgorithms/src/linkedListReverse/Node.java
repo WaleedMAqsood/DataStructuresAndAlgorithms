@@ -6,7 +6,6 @@ class Node {
 	int data;
 
 	Node(int value) {
-
 		data = value;
 		next = null;
 
