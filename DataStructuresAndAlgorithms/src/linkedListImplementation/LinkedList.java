@@ -41,7 +41,6 @@ public class LinkedList {
 	public void insertAtStart(int data) {
 
 		Node node = new Node(data);
-		node.data = data;
 		node.next = head;
 		head = node;
 
@@ -58,7 +57,6 @@ public class LinkedList {
 
 		} else {
 			Node node = new Node(data);
-			node.data = data;
 			node.next = null;
 
 			Node n = head;
