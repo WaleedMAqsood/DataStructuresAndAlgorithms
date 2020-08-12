@@ -24,9 +24,7 @@ public class BinarySearchTree {
 		 * If tree is empty return a new node
 		 */
 		if (root == null) {
-			root = new Node(key);
-
-			return root;
+			return new Node(key);
 		}
 
 		else if (key < root.key) {
