@@ -1,5 +1,5 @@
 /*
- * Binary Search Tree insertion (Recursive)
+ * Insert Operation in Binary search tree using Recursion 
  */
 package binarySearchTreeRecursive;
 
