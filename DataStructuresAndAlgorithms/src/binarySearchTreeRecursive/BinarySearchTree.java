@@ -20,9 +20,6 @@ public class BinarySearchTree {
 	 */
 	Node insertKey(Node root, int key) {
 
-		/*
-		 * If tree is empty return a new node
-		 */
 		if (root == null) {
 
 			return new Node(key);
