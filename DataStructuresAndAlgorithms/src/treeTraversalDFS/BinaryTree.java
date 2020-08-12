@@ -18,8 +18,8 @@ public class BinaryTree {
 		if (root == null)
 			return;
 
-		// Print the data of the node
-		System.out.print(root.data + " ");
+		// Print the key of the node
+		System.out.print(root.key + " ");
 
 		// Recursively traverse left child
 		preOrder(root.left);
@@ -40,8 +40,8 @@ public class BinaryTree {
 		// Recursively traverse left child
 		inOrder(root.left);
 
-		// Print the data of the node
-		System.out.print(root.data + " ");
+		// Print the key of the node
+		System.out.print(root.key + " ");
 
 		// Recursively traverse right child
 		inOrder(root.right);
@@ -61,8 +61,8 @@ public class BinaryTree {
 		// Recursively traverse right child
 		postOrder(root.right);
 
-		// Print the data of the node
-		System.out.print(root.data + " ");
+		// Print the key of the node
+		System.out.print(root.key + " ");
 
 	}
 
