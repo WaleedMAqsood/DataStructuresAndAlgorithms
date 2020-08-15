@@ -27,7 +27,7 @@ public class BinarySearchTree {
 			return new Node(key);
 		}
 		// if the key is less than the root then recur left subtree
-		else if (key < root.key) {
+		if (key < root.key) {
 
 			root.left = insertKey(root.left, key);
 		}
