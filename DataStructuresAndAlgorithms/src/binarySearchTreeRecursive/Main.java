@@ -24,6 +24,11 @@ public class Main {
 		System.out.println("Printing the nodes after deleting");
 		tree.inOrder();
 
+		System.out.println("\nDeleting 20");
+		tree.delete(20);
+		System.out.println("Printing the nodes after deleting");
+		tree.inOrder();
+
 		System.out.println("\nDeleting 60");
 		tree.delete(60);
 		System.out.println("Printing the nodes after deleting");
