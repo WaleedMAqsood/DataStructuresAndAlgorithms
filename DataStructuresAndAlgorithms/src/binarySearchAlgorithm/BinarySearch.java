@@ -6,7 +6,6 @@ package binarySearchAlgorithm;
 public class BinarySearch {
 
 	public static int binarysearch(int[] array, int key, int first, int last) {
-//update
 		while (first <= last) {
 
 			/*
