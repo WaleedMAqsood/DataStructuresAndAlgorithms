@@ -21,6 +21,9 @@ public class Linearsearch {
 		}
 	}
 
+	/*
+	 * Method to do Linear Search
+	 */
 	public static int searchValue(int[] array, int value) {
 
 		for (int i = 0; i < array.length; i++) {
