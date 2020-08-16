@@ -21,22 +21,22 @@ public class Main {
 
 		System.out.println("\n\nDeleting 30");
 		tree.delete(30);
-		System.out.println("Printing the nodes after deleting");
+		System.out.println("Printing the nodes in Inorder traversal after deleting");
 		tree.inOrder();
 
 		System.out.println("\n\nDeleting 20");
 		tree.delete(20);
-		System.out.println("Printing the nodes after deleting");
+		System.out.println("Printing the nodes in Inorder traversal after deleting");
 		tree.inOrder();
 
 		System.out.println("\n\nDeleting 60");
 		tree.delete(60);
-		System.out.println("Printing the nodes after deleting");
+		System.out.println("Printing the nodes in Inorder traversal after deleting");
 		tree.inOrder();
 
 		System.out.println("\n\nDeleting 50");
 		tree.delete(50);
-		System.out.println("Printing the nodes after deleting");
+		System.out.println("Printing the nodes in Inorder traversal after deleting");
 		tree.inOrder();
 
 	}
