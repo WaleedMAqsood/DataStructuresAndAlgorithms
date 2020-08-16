@@ -54,7 +54,7 @@ public class BinarySearchTree {
 	 * Method to perform delete operator in BST
 	 */
 
-	public Node deleteKey(Node root, int key) {
+	Node deleteKey(Node root, int key) {
 
 		// if the tree is empty
 		if (root == null)
