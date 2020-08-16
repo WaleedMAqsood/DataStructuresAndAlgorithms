@@ -5,8 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 		LinkedList list = new LinkedList();
 
-		// Inserting in Linked list
-		// Inserting a new node at the end
+		// Inserting new node at the end
 		list.insert(50);
 		list.insert(60);
 		list.insert(65);
