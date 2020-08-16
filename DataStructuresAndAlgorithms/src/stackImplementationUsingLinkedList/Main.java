@@ -13,16 +13,14 @@ public class Main {
 		st.push(8);
 
 		// display stack
+		System.out.println("Printing the stack");
 		st.display();
 
-		System.out.println("Popped from stack " + st.pop());
-
-		// display stack
+		System.out.println("\nPopped from stack " + st.pop());
+		System.out.println("Printing the stack");
 		st.display();
 
-		System.out.println("Top element is " + st.peek());
-
-		System.out.println();
+		System.out.println("\nTop element is " + st.peek());
 
 	}
 }

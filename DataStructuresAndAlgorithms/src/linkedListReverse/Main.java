@@ -18,7 +18,7 @@ public class Main {
 		// Reversing a Linked list
 		list.reverseList();
 
-		System.out.println("Displaying Reverse Linked list");
+		System.out.println("\nDisplaying Reverse Linked list");
 		list.show();
 
 	}

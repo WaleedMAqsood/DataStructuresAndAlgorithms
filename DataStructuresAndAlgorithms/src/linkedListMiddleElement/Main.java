@@ -6,15 +6,17 @@ public class Main {
 		LinkedList list = new LinkedList();
 
 		// Inserting in Linked list
-		list.insert(1);
-		list.insert(2);
-		list.insert(3);
-		list.insert(4);
-		list.insert(5);
+		// Inserting a new node at the end
+		list.insert(50);
+		list.insert(60);
+		list.insert(65);
+		list.insert(70);
+		list.insert(75);
+		list.insert(80);
+		list.insert(85);
 
-		// Displaying LinkedList
+		System.out.println("Printing the nodes in InOrder traveral");
 		list.show();
-
 		// Method to Print the middle element
 		list.linkedListMiddle();
 
