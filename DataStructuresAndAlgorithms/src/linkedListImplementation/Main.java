@@ -6,7 +6,7 @@ public class Main {
 
 		LinkedList list = new LinkedList();
 
-		// Inserting a new node at the end
+		// Inserting new node at the end
 		list.insert(50);
 		list.insert(60);
 		list.insert(65);
