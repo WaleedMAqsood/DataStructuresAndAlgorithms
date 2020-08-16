@@ -31,7 +31,7 @@ public class Main {
 
 		System.out.print("\nDeleting The node at index 2");
 		list.deleteAt(0);
-		System.out.println("\nPrinting the nodes in InOrder traveral ");
+		System.out.println("\nPrinting the nodes in InOrder traveral");
 		list.show();
 
 	}
