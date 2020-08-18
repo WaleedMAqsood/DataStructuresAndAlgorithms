@@ -3,6 +3,17 @@
  */
 package linkedListMiddleElement;
 
+class Node {
+
+	Node next;
+	int data;
+
+	Node(int value) {
+		data = value;
+		next = null;
+	}
+}
+
 public class LinkedList {
 
 	Node head;
@@ -46,7 +57,7 @@ public class LinkedList {
 
 		}
 
-		System.out.print("The middle element is " + slowPointer.data);
+		System.out.print("\nThe middle element is " + slowPointer.data);
 
 	}
 
@@ -62,6 +73,25 @@ public class LinkedList {
 			current = current.next;
 
 		}
+	}
+
+	public static void main(String[] args) {
+		LinkedList list = new LinkedList();
+
+		// Inserting new node at the end
+		list.insert(50);
+		list.insert(60);
+		list.insert(65);
+		list.insert(70);
+		list.insert(75);
+		list.insert(80);
+		list.insert(85);
+
+		System.out.println("Printing the nodes in InOrder traveral");
+		list.show();
+		// Method to Print the middle element
+		list.linkedListMiddle();
+
 	}
 
 }
