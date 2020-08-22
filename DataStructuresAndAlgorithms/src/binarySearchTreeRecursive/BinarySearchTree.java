@@ -128,7 +128,7 @@ public class BinarySearchTree {
 	}
 
 	/*
-	 * This method calls inOrder method
+	 * This method calls inOrderPrint method
 	 */
 	public void inOrder() {
 

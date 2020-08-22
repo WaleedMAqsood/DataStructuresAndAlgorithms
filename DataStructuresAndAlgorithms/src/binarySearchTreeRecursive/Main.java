@@ -14,7 +14,7 @@ public class Main {
 		tree.insert(30);
 		tree.insert(55);
 		tree.insert(80);
-		tree.insert(30);
+		tree.insert(31);
 
 		System.out.println("Printing the nodes in Inorder traversal");
 		tree.inOrder();
