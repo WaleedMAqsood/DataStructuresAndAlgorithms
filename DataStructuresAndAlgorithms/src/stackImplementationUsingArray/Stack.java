@@ -7,7 +7,7 @@ public class Stack {
 
 	int capacity = 4;
 
-	int arr[] = new int[capacity];
+	int[] arr = new int[capacity];
 
 	int top = 0;
 
