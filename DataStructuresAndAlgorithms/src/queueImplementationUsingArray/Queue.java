@@ -35,7 +35,6 @@ public class Queue {
 		}
 
 		int data = arr[front];
-		System.out.println("Deleting front element in Queue:" + data);
 		front = (front + 1) % 5;
 		size--;
 		return data;
@@ -91,7 +90,7 @@ public class Queue {
 			System.exit(1);
 		}
 
-		System.out.println("Printing Element in Queue:");
+		System.out.println("\nPrinting Elements in the Queue:");
 		for (int i = 0; i < size; i++) {
 
 			System.out.print(arr[front + i] + " ");

@@ -1,4 +1,4 @@
-package queueImplementationUsingArray;
+package queueImplementationUsingLinkedList;
 
 public class Main {
 
@@ -18,7 +18,7 @@ public class Main {
 		System.out.println("\nThe front element in queue is:" + q.peek());
 
 		// Deleting an Element in Queue
-		System.out.println("\nDeleting front Element from Queue:" + q.deQueue());
+		System.out.println("\nDeleting the front element:" + q.deQueue());
 		// Printing QUeue
 		q.show();
 
