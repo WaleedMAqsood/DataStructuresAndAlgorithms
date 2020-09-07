@@ -1,4 +1,4 @@
-package QueueImplementationUsingArray;
+package queueImplementationUsingArray;
 
 public class Main {
 
