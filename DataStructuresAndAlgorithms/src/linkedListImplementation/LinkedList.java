@@ -23,13 +23,13 @@ public class LinkedList {
 		}
 
 		else {
-			Node n = head;
-			while (n.next != null) {
+			Node current = head;
+			while (current.next != null) {
 
-				n = n.next;
+				current = current.next;
 
 			}
-			n.next = node;
+			current.next = node;
 
 		}
 
@@ -59,15 +59,15 @@ public class LinkedList {
 			Node node = new Node(data);
 			node.next = null;
 
-			Node n = head;
+			Node current = head;
 			for (int i = 0; i < index - 1; i++) {
 
-				n = n.next;
+				current = current.next;
 
 			}
-			node.next = n.next;
+			node.next = current.next;
 
-			n.next = node;
+			current.next = node;
 		}
 	}
 
@@ -80,14 +80,14 @@ public class LinkedList {
 			head = head.next;
 
 		} else {
-			Node n = head;
+			Node current = head;
 
 			for (int i = 0; i < index - 1; i++) {
 
-				n = n.next;
+				current = current.next;
 
 			}
-			n.next = n.next.next;
+			current.next = current.next.next;
 
 		}
 	}

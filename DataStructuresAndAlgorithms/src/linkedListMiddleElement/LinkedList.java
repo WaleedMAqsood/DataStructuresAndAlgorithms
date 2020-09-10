@@ -31,13 +31,13 @@ public class LinkedList {
 			head = node;
 
 		} else {
-			Node n = head;
-			while (n.next != null) {
+			Node current = head;
+			while (current.next != null) {
 
-				n = n.next;
+				current = current.next;
 
 			}
-			n.next = node;
+			current.next = node;
 
 		}
 	}
@@ -87,7 +87,7 @@ public class LinkedList {
 		list.insert(80);
 		list.insert(85);
 
-		System.out.println("Printing the nodes in InOrder traveral");
+		System.out.println("Printing the nodes");
 		list.show();
 		// Method to Print the middle element
 		list.linkedListMiddle();

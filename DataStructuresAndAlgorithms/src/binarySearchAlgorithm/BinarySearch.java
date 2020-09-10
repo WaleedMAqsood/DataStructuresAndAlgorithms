@@ -48,7 +48,7 @@ public class BinarySearch {
 			System.out.print("The Key was not found");
 
 		} else {
-			System.out.print("The Key was found at index" + result);
+			System.out.print("The Key was found at index:" + result);
 		}
 
 	}

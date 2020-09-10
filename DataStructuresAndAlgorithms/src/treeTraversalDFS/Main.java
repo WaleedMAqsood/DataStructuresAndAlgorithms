@@ -13,7 +13,7 @@ public class Main {
 		System.out.println("Preorder Traveral for Binary Tree:");
 		BinaryTree.preOrder(root);
 
-		System.out.println("\nIneorder Traveral for Binary Tree:");
+		System.out.println("\nInorder Traveral for Binary Tree:");
 		BinaryTree.inOrder(root);
 
 		System.out.println("\nPostorder Traveral for Binary Tree:");

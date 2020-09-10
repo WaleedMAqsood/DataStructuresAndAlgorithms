@@ -35,13 +35,13 @@ public class LinkedList {
 		}
 
 		else {
-			Node n = head;
-			while (n.next != null) {
+			Node current = head;
+			while (current.next != null) {
 
-				n = n.next;
+				current = current.next;
 
 			}
-			n.next = node;
+			current.next = node;
 		}
 	}
 
