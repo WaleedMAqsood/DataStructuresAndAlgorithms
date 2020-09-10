@@ -21,7 +21,7 @@ public class LinkedList {
 	Node head;
 
 	/*
-	 * Method to insert a new node
+	 * Method to insert a new node at the end
 	 */
 	public void insert(int data) {
 
