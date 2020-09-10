@@ -29,7 +29,7 @@ public class Main {
 		System.out.println("\nPrinting the nodes");
 		list.show();
 
-		System.out.print("\nDeleting The node at index 2");
+		System.out.print("\nDeleting The node at index 0");
 		list.deleteAt(0);
 		System.out.println("\nPrinting the nodes");
 		list.show();
