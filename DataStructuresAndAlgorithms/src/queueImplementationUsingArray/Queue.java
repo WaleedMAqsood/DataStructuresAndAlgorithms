@@ -1,3 +1,7 @@
+/*
+ * enQueue, deQueue,peek, isEmpty isFull and display stack
+ */
+
 package queueImplementationUsingArray;
 
 public class Queue {

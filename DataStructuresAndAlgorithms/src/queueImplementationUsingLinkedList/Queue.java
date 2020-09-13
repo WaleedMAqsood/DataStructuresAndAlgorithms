@@ -1,3 +1,7 @@
+/*
+ * enQueue, deQueue,peek and display stack
+ */
+
 package queueImplementationUsingLinkedList;
 
 public class Queue {
