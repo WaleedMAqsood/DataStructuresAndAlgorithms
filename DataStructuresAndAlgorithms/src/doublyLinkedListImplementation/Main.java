@@ -25,7 +25,7 @@ public class Main {
 		System.out.println("\n\nInserting The node at index 3");
 		list.insertAt(3, 44);
 
-		System.out.println("\n\nPrinting the Nodes after deletion");
+		System.out.println("\n\nPrinting the Nodes after insertion");
 		list.show();
 
 	}
