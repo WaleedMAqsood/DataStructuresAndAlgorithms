@@ -97,7 +97,7 @@ public class Queue {
 		System.out.println("\nPrinting Elements in the Queue:");
 		for (int i = 0; i < size; i++) {
 
-			System.out.print(arr[front + i] + " ");
+			System.out.print(arr[(front + i) % 5] + " ");
 
 		}
 		System.out.println();
